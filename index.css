@@ -1,0 +1,529 @@
+body, h1, h4, p, li, input, a, span {
+	font-family: Arial, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header .logo-image {
+	float: left;
+	width: 70px;
+	height: 63px;
+	padding: 3px;
+}
+
+.background {
+	background-image: url(https://static.vecteezy.com/system/resources/previews/002/036/229/non_2x/dark-pine-forest-mountains-and-gray-sky-spring-gray-landscape-vector.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 670px;
+}
+
+header {
+	position: fixed;
+	background: linear-gradient(to right, #000000, #1a1a1a);
+	height: 70px;
+	width: 100vw;
+	box-shadow: 0 3px 0 #EC7063;
+}
+
+header ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+header .menu-toggle {
+	display: none;
+}
+
+header ul li {
+	float: left;
+}
+
+header ul li a {
+	display: block;
+	color: white;
+	padding: 25px;
+	font-weight: bold;
+	font-size: 17px;
+	text-decoration: none;
+	font-family: monospace;
+}
+
+header ul li a:hover {
+	background: #3498DB;
+	transition: 0.5s;
+	color: black;
+}
+
+.sign-up-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	padding-top: 30px;
+}
+
+#submit {
+	padding: 5px;
+	border-radius: 5px;
+	margin-top: 6px;
+	font-size: 15px;
+	font-weight: bold;
+	background: black;
+	color: #1ABC9C;
+}
+
+input:hover[type="submit"] {
+	transform: scale(1.05);
+}
+
+.description {
+	width: 500px;
+	font-size: 19px;
+	color: white;
+	display: inline-block;
+	padding-top: 170px;
+}
+
+.center {
+	text-align: center;
+}
+
+#form {
+	text-align: center;
+	margin-bottom: 25px;
+	color: white;
+}
+
+#email {
+	width: 230px;
+}
+
+#overview {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to right, #1ABC9C, #000000);
+	color: black;
+	padding-top: 40px;
+	font-size: 25px;
+	font-family: monospace;
+	text-shadow: 3px 3px #EC7063;
+}
+
+.video {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 160px;
+}
+
+#services {
+	background: linear-gradient(to right, #a8e8db, #b0bff9);
+	color: black;
+}
+
+.services1 {
+	display: inline-block;
+	width: 400px;
+	font-size: 20px;
+	padding-left:6%;
+	padding-bottom: 200px;
+}
+
+.services2 {
+	display: inline-block;
+	padding-left: 6%;
+	padding-top: 150px;
+}
+
+#process {
+	background: linear-gradient(to right, #98bcd7, #1ABC9C);
+	color: #1ABC9C;
+}
+
+.process1 {
+	display: inline-block;
+	padding-left: 6%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 150px;
+}
+
+.process2 {
+	display: inline-block;
+	width: 370px;
+	font-size: 20px;
+	padding-left: 6%;
+	padding-bottom: 100px;
+	padding-top: -110px;
+	color: #000000;
+}
+
+#team {
+	background: linear-gradient(to right, #7e79b7, #1996bf);
+	color: black;
+}
+
+.team1 {
+	display: inline-block;
+	width: 400px;
+	font-size: 20px;
+	padding-left: 6%;
+	padding-bottom: 200px;
+}
+
+.team2 {
+	display: inline-block;
+	padding-left: 6%;
+	margin-top: 150px;
+	box-shadow: #1a1a1a;
+}
+	
+#culture {
+	background: linear-gradient(to right, #000000, #1ABC9C);
+	color: #000000;
+}
+
+.culture1 {
+	display: inline-block;
+	padding-left: 6%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.culture2 {
+	display: inline-block;
+	width: 370px;
+	font-size: 20px;
+	padding-left: 6%;
+	padding-bottom: 200px;
+}
+
+footer {
+	margin-top: 0px;
+	background-color: black;
+	padding: 10px;
+	border-top: 3px solid #EC7063;
+}
+
+.footer-img img {
+	padding-top: 15px;
+	padding-bottom: 18px;
+	height: 55px;
+	width: 58px;
+	padding-left: 48%;
+}
+
+footer > ul {
+	display: flex;
+	justify-content: center;
+	padding-right: 30px;
+	list-style: none;
+}
+
+.footer-link {
+	color: rgba(255, 166, 0, 0.56);
+	text-decoration: none;
+	font-family: serif;
+	font-size: 17px;
+}
+
+.footer-link:hover {
+	color: gray;
+}
+
+footer > ul > li {
+	padding: 0px 35px;
+}
+
+footer > span {
+	display: flex;
+	justify-content: center;
+	font-size: 1em;
+	color: rgba(252, 252, 252, 0.402);
+}
+
+@media (max-width: 600px) {
+	header {
+		position: fixed;
+		box-shadow: 0 2px 0 #EC7063;
+	}
+
+	header ul {
+		width: 100%;
+		background: #3498DB;
+		max-height: 0px;
+		overflow: hidden;
+	}
+
+	.showing {
+		max-height: 100em;
+		transition: 1.5s;
+	}
+
+	header ul li {
+		width: 100%;
+		border-bottom: 1px solid black;
+		height: 61px;
+	}
+
+	header ul li:nth-child(5) {
+		border-bottom: 1px solid black;
+	}
+
+	header ul li a {
+		padding: 22px;
+		font-size: 14.5px;
+	}
+
+	header ul li a:hover {
+		padding: 22px;
+		font-size: 14.5px;
+	}
+
+	header .menu-toggle {
+		display: block;
+		position: absolute;
+		right: 20px;
+		top: 22px;
+		font-size: 25px;
+		color: white;
+		cursor: pointer;
+	}
+
+	header .menu-toggle:hover {
+		color: #1ABC9C;
+		transition: 0.5s;
+	}
+
+	header .logo-image {
+		width: 65px;
+		height: 62.5px;
+		padding: 3px;
+	}
+
+	.sign-up-page {
+		display: flex;
+		justify-content: center;
+		align-items: top;
+		font-size: 9px;
+	}
+
+	#submit {
+		padding: 5px;
+		border-radius: 5px;
+		margin-top: 3px;
+		font-size: 8px;
+		font-weight: bold;
+	}
+
+	input:hover[type="submit"] {
+		transform: scale(1.05);
+	}
+
+	.description {
+		width: 250px;
+		font-size: 11px;
+		padding-top: 120px;
+	}
+
+	.center {
+		text-align: center;
+	}
+
+	#form {
+		text-align: center;
+		margin-bottom: 60px;
+	}
+
+	#email {
+		width: 150px;
+	}
+
+	#services {
+		background: #1ABC9C;
+		color: black;
+	}
+
+	.services1 {
+		padding-top: 65px;
+		display: inline-block;
+		width: 260px;
+		padding-right: 11%;
+		font-size: 12px;
+		padding-left: 11%;
+	}
+
+	.services2 {
+		display: inline-block;
+		padding-left: 11%;
+		padding-top: 20px;
+		padding-right: 11%;
+		padding-bottom: 75px;
+	}
+
+	.services2 img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	#process {
+		background: black;
+		color: #1ABC9C;
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+
+	.process1 {
+		padding-left: 11%;
+		padding-top: 20px;
+		padding-bottom: 75px;
+		padding-right: 11%;
+	}
+
+	.process2 {
+		width: 260px;
+		font-size: 12px;
+		padding-left: 11%;
+		padding-top: 65px;
+		padding-right: 11%;
+		padding-bottom: 0px;
+	}
+
+	.process1 img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	#team {
+		background: #1ABC9C;
+		color: black;
+	}
+
+	.team1 {
+		padding-top: 65px;
+		display: inline-block;
+		width: 260px;
+		font-size: 12px;
+		padding-left: 11%;
+		padding-bottom: 0px;
+	}
+
+	.team2 {
+		display: inline-block;
+		padding-left: 11%;
+		padding-bottom: 200px;
+		padding-top: 200px;
+	}
+
+	.team2 img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	#culture {
+		background: black;
+		color: #1ABC9C;
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+
+	.culture1 {
+		padding-left: 11%;
+		padding-top: 20px;
+		padding-bottom: 75px;
+		padding-right: 11%;
+	}
+
+	.culture2 {
+		width: 260px;
+		font-size: 12px;
+		padding-left: 11%;
+		padding-top: 65px;
+		padding-right: 11%;
+		padding-bottom: 0px;
+	}
+
+	.culture1 img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	#overview {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		background: #1ABC9C;
+		color: black;
+		padding-top: 40px;
+		font-size: 100%;
+		font-family: monospace;
+		text-decoration: bold;
+		text-shadow: 2px 2px #EC7063;
+		padding-bottom: 0px;
+	}
+
+	.video {
+		text-align: center;
+		padding-top: 50px;
+	}
+
+	#overview #video {
+		max-width: 280px;
+		height: auto;
+	}
+
+	footer {
+		margin-top: 0px;
+		background-color: black;
+		padding: 8px;
+		height: 136px;
+		border-top: 2px solid #EC7063;
+	}
+
+	.footer-img img {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 43%;
+		height: 45px;
+		width: 47px;
+	}
+
+	footer > ul {
+		display: flex;
+		justify-content: center;
+		padding-right: 35px;
+		list-style: none;
+	}
+
+	.footer-link {
+		color: orange;
+		text-decoration: none;
+		font-family: serif;
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	a:hover[class="footer-link"] {
+		color: gray;
+	}
+
+	footer > ul > li {
+		padding: 0px 15px;
+	}
+
+	footer > span {
+		display: flex;
+		justify-content: center;
+		font-size: 13px;
+		color: skyblue;
+		line-height: 2px;
+	}
+}
